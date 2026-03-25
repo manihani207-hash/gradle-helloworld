@@ -1,4 +1,4 @@
-name: Gradle Build and Push to ECR with OIDC file
+name: Gradle Build and Push to ECR with OIDC file 1
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  AWS_REGION: ca-central-1
-  ECR_REPOSITORY: gradle-hello-app
+  AWS_REGION: us-west-2
+  ECR_REPOSITORY: hello-app-gradle
 
 permissions:
   id-token: write     # REQUIRED for OIDC
